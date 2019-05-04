@@ -845,7 +845,7 @@ footer {
 
 .aboutmetext{
   margin:0 20px 0 20px;
-  font-size: 2rem;
+  font-size: 1rem;
   text-align: left;
   width: 550px;
 }
@@ -887,6 +887,8 @@ footer {
 }
 
 .back {
+  background: url(../About/DSC00029.JPG) center center;
+  background-size: 240%;
   z-index: 1;
   background-color: #2fcfcf;
   transform:rotateY(180deg);
@@ -921,11 +923,11 @@ footer {
 }
 
 .back a:nth-of-type(1):before {
- background:url(http://media.a-g.fr/crea/talenance/linkedin.png) no-repeat center center;
+ 
     top:30px;
 }
 .back a:nth-of-type(2):before {
- background:url(http://media.a-g.fr/crea/talenance/email.png) no-repeat center center;
+ 
     bottom:30px;
 }
 
